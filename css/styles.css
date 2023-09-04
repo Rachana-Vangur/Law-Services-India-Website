@@ -3,35 +3,28 @@
     padding: 0rem;
     
     box-sizing: border-box;
-}/* no gaps*/
-
-header{
-    padding: 1.5rem;
 }
+
+
 nav{
     height: 6.3rem;
     padding-top: 2.5rem;
     text-align: end;
-    background-color: #ECE5C7;
+    background-color: black;
 }
 nav ul li{
    
     padding: 2.5rem;
     display: inline;
 }
-#logo-text{
-    padding-top: 2rem;
-    font-size: large;
-    padding-left: 0.5rem;
-}
 
 a{
     border: 0.1rem solid burlywood;
-    background-color: burlywood;
+    background-color: black;
     text-decoration: none;
     border-radius: 0.4rem;
     padding: 0.3rem;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 .search{
@@ -42,18 +35,18 @@ a{
 }
 
 .First-container{
-    background-color: #C2DED1;
+    background-color: #678983;
     
     height: 41.58rem;
     text-align: center;
 }
 .Second-container{
-    background-color: #ECE5C7;
+    background-color: #5C8374;
     height: 48.58rem;
     text-align: center;
 }
 .Third-container{
-    background-color: #EDE6DB;
+    background-color: #93B1A6;
     height: 48.58rem;
     text-align: center;
 }
