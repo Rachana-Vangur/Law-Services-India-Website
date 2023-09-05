@@ -7,10 +7,10 @@
 
 
 nav{
-    height: 6.3rem;
+    height: 6.2rem;
     padding-top: 2.5rem;
     text-align: end;
-    background-color: black;
+    background-color: #F6F4EB;
 }
 nav ul li{
    
@@ -19,12 +19,12 @@ nav ul li{
 }
 
 a{
-    border: 0.1rem solid burlywood;
-    background-color: black;
+    border: 0.1rem solid #001F3F;
+    background-color: #F6F4EB;
     text-decoration: none;
     border-radius: 0.4rem;
     padding: 0.3rem;
-    color: white;
+    color: #001F3F;
     cursor: pointer;
 }
 .search{
@@ -32,21 +32,41 @@ a{
 }
 .floats{
     float: left;
+   
 }
 
 .First-container{
-    background-color: #678983;
-    
+    background-color: #F6F4EB;
+    background-image: url(Pictures/Jury-hammer.jpg);
     height: 41.58rem;
     text-align: center;
 }
 .Second-container{
-    background-color: #5C8374;
+    background-color: #F6F4EB;
     height: 48.58rem;
     text-align: center;
+   
 }
 .Third-container{
     background-color: #93B1A6;
     height: 48.58rem;
     text-align: center;
+}
+.child1, .child2{
+    display: flex;
+    padding: 3rem;
+}
+
+
+.criminal, .civil, .corporate, .entertain, .environ, .hr{
+    border: 0.1rem solid #001F3F;
+    border-radius: 0.4rem;
+    padding: 3rem;
+    width: 25rem;
+    height: 7rem;
+    margin: 2rem;
+    background-color: #001F3F;
+    color: #F6F4EB;
+    cursor: pointer;
+  
 }
